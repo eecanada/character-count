@@ -9,7 +9,6 @@ function charCount(charLimit) {
   inputForm.addEventListener('keyup', function (e) {
     if (inputForm.value.length >= charLimit) {
       warning.style.display = 'block';
-      console.log(inputForm.value.length);
     } else {
       warning.style.display = 'none';
     }
